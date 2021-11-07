@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load cart %}
+<div class="container">
+    <div class="border rounded p-4 m-4">
+        <p class="display-2 pl-4 ml-4" style="background-color: black;color: #fff;">Your Orders</p>
+
+        <hr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Sno.</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Date</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in orders %}
+                <tr>
+                    <td>{{forloop.counter}}</td>
+                    <td> <img src="{{order.product.image.url}}" class="rounded-circle" width="80px"></td>
+                    <td>{{order.product.name}}</td>
+                    <td>{{order.date}}</td>
+                    <td>₹{{order.price}}</td>
+                    
+
+                    <td>{{order.quantity}}</td>
+                    <td>₹{{order.quantity|multiply:order.price}}</td>
+                    {% if order.status %}
+                    <td><p class="badge bg-success text-white">Compeleted</p></td>
+                    {% else %}
+                    <td><p class="badge bg-warning text-dark">Pending</p></td>
+                    {% endif %}
+                </tr>
+                {% endfor %}
+
+            </tbody>
+           
+        </table>
+        
+
+
+
+    </div>
+</div>
+
+<!-- Button trigger modal -->
+
+
+{% endblock %}
