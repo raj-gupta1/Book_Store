@@ -81,6 +81,29 @@
  </ul> </p> 
  <br> 
 
+
+<h3> JUCMNaV Architecture</h3>
+<img src="https://i.ibb.co/4tcvVVn/jucm-img-final.jpg"> 
+
+<h3>Actor cooperation viewpoint</h3>
+<img src="https://i.ibb.co/WccVjwv/acvp.jpg"> 
+
+<h3>Organisation viewpoint</h3>
+<img src="https://i.ibb.co/61RxNDV/ovp.jpg"> 
+
+<h3>Application usage viewpoint</h3>
+<img src="https://i.ibb.co/jbQJSJV/auv.jpg"> 
+
+<h3>Service realization viewpoint</h3>
+<img src="https://i.ibb.co/vmhHvw5/srv.jpg"> 
+
+<h3>Application viewpoint</h3>
+<img src="https://i.ibb.co/ngj8sW8/a.jpg"> 
+
+<h3>Bussiness Process viewpoint</h3>
+<img src="https://i.ibb.co/wyFqjJ5/bp.jpg"> 
+
+<h1> Webpage image</h1>
 <img src="https://i.ibb.co/0D5ncgb/Screenshot-2021-11-14-141622.jpg"> 
 <img src="https://i.ibb.co/NTNrXh6/Screenshot-2021-11-14-141608.jpg"> 
 <img src="https://i.ibb.co/YR2ZLbW/Screenshot-2021-11-14-141549.jpg"> 
