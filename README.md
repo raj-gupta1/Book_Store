@@ -26,7 +26,7 @@
    <br> 
   
    <h1> Software development methodology used   </h1>
-    Agile development technique (because of limited time limit)
+    Agile development technique (2 iteration span of 4-5 weeks each)
      <br> 
      
   <h1> Features</h1>
@@ -49,7 +49,18 @@
  </ul> </p> 
  <br> 
   
- 
+  <h1> Language and Frameworks used</h1>
+ <p title=Language and Frameworks used>  
+<ul>
+<li>Python</li>
+  <li>JavaScript</li>
+<li>JAVA</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Django</li>
+</ul> </p> 
+  <br> 
+  
   <h1> Tools used</h1>
  <p title=Tools used>  
 <ul>
