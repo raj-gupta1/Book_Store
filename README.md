@@ -73,6 +73,13 @@
    <li>Python Anywhere</li>
 </ul> </p> 
   <br> 
+  
+   <h1>Project status</h1> 
+<p title=Project status>  
+<ul>
+<li>Project completed.</li>
+ </ul> </p> 
+ <br> 
 
 <img src="https://i.ibb.co/0D5ncgb/Screenshot-2021-11-14-141622.jpg"> 
 <img src="https://i.ibb.co/NTNrXh6/Screenshot-2021-11-14-141608.jpg"> 
